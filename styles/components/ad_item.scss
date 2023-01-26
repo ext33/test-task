@@ -1,0 +1,30 @@
+
+.ad-item__card {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+
+    img {
+        height: 250px;
+    }
+
+    @media (max-width: 390px) {
+        margin: 10px 0;
+        width: 280px;
+
+        img {
+            height: 230px;
+        }
+    }
+
+    @media (max-width: 340px) {
+        width: 250px;
+    }
+}
+
+.ad-item__price-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

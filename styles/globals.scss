@@ -1,0 +1,28 @@
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    padding: 25px 30px;
+}
+
+.app-logo {
+    width: 120px;
+    height: 28px;
+
+    @media (max-width: 340px) {
+        width: 100px;
+        height: 24px;
+    }
+}
+
+.items__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
